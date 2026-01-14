@@ -1,8 +1,14 @@
-![Actxa Logo](assets/Actxa-Logo1C-2307.png)
-
---
-
-# Actxa Parkes Error Grid Validation Tool
+<table width="100%">
+  <tr>
+    <td align="left" border="0">
+      <h1>Actxa Parkes Error Grid Validation Tool</h1>
+      <h3>Clinical Accuracy Analysis Powered by BGEM</h3>
+    </td>
+    <td align="right" border="0">
+      <img src="assets/Actxa-Logo1C-2307.png" width="150">
+    </td>
+  </tr>
+</table>
 
 ### Clinical Accuracy Analysis Powered by BGEM
 
