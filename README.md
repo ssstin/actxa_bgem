@@ -2,7 +2,6 @@
   <tr style="border: none;">
     <td align="left" style="border: none; vertical-align: middle;">
       <h1 style="border: none; margin: 0;">Actxa Parkes Error Grid Validation Tool</h1>
-      <p style="margin: 0;">Clinical Accuracy Analysis Powered by BGEM</p>
     </td>
     <td align="right" style="border: none; vertical-align: middle;">
       <img src="assets/Actxa-Logo1C-2307.png" width="160">
