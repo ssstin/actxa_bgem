@@ -28,6 +28,5 @@ Zones are based on the original consensus defined by J.L. Parkes:
 | **Zone D** | **Significant medical risk.** Errors could lead to a failure to treat or dangerous treatment. |
 | **Zone E** | **Dangerous consequences.** Leads to treatment opposite to what is required. |
 
---
 
 **© 2026 Actxa. All rights reserved.**
