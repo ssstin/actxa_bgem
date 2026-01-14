@@ -1,10 +1,12 @@
-# 📊 Actxa Parkes Error Grid Validation Tool
+# Actxa Parkes Error Grid Validation Tool
+
+![Actxa Logo](assets/Actxa-Logo1C-2307.png)
 
 ### Clinical Accuracy Analysis Powered by BGEM
 
 This tool is developed by **Actxa** for users to validate the accuracy of our **BGEM (Blood Glucose Estimation Model)** against a reference reading. It utilises the **Parkes (Consensus) Error Grid** to classify the clinical significance of differences between estimated and reference values.
 
-**Access the Webpage:** [Insert Streamlit Cloud URL here]
+**Access the Webpage:** https://actxabgem.streamlit.app
 
 ---
 
