@@ -1,6 +1,8 @@
-# Actxa Parkes Error Grid Validation Tool
-
 ![Actxa Logo](assets/Actxa-Logo1C-2307.png)
+
+--
+
+# Actxa Parkes Error Grid Validation Tool
 
 ### Clinical Accuracy Analysis Powered by BGEM
 
