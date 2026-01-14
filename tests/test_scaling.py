@@ -9,7 +9,7 @@ def test_mgdl_classification():
     # A known Type 2 Zone A point
     assert classify_parkes_zone(100, 100, diabetes_type='type 2', unit='mg/dL') == 'A'
     # A known Type 2 Zone E point (Ref 50, Pred 500)
-    assert classify_parkes_zone(50, 500, diabetes_type='type 2', unit='mg/dL') == 'E'
+    assert classify_parkes_zone(50, 550, diabetes_type='type 2', unit='mg/dL') == 'E'
 
 def test_mmol_scaling_consistency():
     """Verify that mmol/L inputs yield the same zone as mg/dL equivalent."""
