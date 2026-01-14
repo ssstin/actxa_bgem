@@ -1,0 +1,7 @@
+[data-testid="stSidebarContent"] {
+    overflow-y: hidden;
+}
+
+.stMetric {
+    padding-bottom: 0px;
+}
