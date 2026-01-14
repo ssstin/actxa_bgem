@@ -1,6 +1,6 @@
 # Actxa Parkes Error Grid Validation Tool
 
-### Clinical Accuracy Analysis Powered by BGEM
+## Clinical Accuracy Analysis Powered by BGEM
 
 This tool is developed by **Actxa** for users to validate the accuracy of our **BGEM (Blood Glucose Estimation Model)** against a reference reading. It utilises the **Parkes (Consensus) Error Grid** to classify the clinical significance of differences between estimated and reference values.
 
@@ -27,5 +27,7 @@ Zones are based on the original consensus defined by J.L. Parkes:
 | **Zone C** | **Likely to affect clinical action.** Errors may lead to unnecessary or incorrect treatment. |
 | **Zone D** | **Significant medical risk.** Errors could lead to a failure to treat or dangerous treatment. |
 | **Zone E** | **Dangerous consequences.** Leads to treatment opposite to what is required. |
+
+--
 
 **© 2026 Actxa. All rights reserved.**
