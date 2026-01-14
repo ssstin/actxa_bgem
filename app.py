@@ -120,7 +120,7 @@ with col_plot:
         diabetes_type=diabetes_type.lower(),
         unit=unit
     )
-    st.pyplot(fig, use_container_width=True)
+    st.pyplot(fig, width='stretch')
 
 # --------------------------------------------------
 # Footer
