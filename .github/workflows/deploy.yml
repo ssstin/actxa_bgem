@@ -1,0 +1,30 @@
+name: Sync to HF and Keep Alive
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Runs every 24 hours to prevent the 48-hour inactivity sleep
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git push --force https://ssstin:$HF_TOKEN@huggingface.co/spaces/ssstin/actxabgem main
+
+      - name: Keep-Alive Ping
+        run: |
+          # Visiting the URL resets the 48-hour inactivity clock
+          curl -I https://huggingface.co/spaces/ssstin/actxabgem
