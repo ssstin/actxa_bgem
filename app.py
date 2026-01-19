@@ -138,7 +138,7 @@ with col_controls:
 
 with col_plot:
     fig = plot_parkes_grid(ref_val, pred_val, diabetes_type.lower(), unit)
-    st.pyplot(fig, width='stretch', clear_figure=True)
+    st.pyplot(fig, use_container_width=True, clear_figure=True)
 
     plt.close(fig)
 
