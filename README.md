@@ -15,7 +15,9 @@ pinned: false
 
 This tool is developed by **Actxa** for users to validate the accuracy of our **BGEM (Blood Glucose Estimation Model)** against a reference reading. It utilises the **Parkes (Consensus) Error Grid** to classify the clinical significance of differences between estimated and reference values.
 
-**Access the Webpage:** https://actxabgem.streamlit.app
+**Access the Webpage:** 
+https://actxabgem.streamlit.app
+https://ssstin-actxabgem.hf.space
 
 ---
 
