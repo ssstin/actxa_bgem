@@ -1,3 +1,14 @@
+---
+title: Actxa BGEM Validation Tool
+emoji: 📊
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.41.1
+app_file: app.py
+pinned: false
+---
+
 # Actxa Parkes Error Grid Validation Tool
 
 ## Clinical Accuracy Analysis Powered by BGEM
