@@ -2,3 +2,5 @@
 env    
 __pycache__/
 .DS_Store
+assets/github_qrcode.png
+assets/huggingface_qrcode.png
