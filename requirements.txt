@@ -1,0 +1,4 @@
+matplotlib==3.10.8
+numpy==2.4.1
+streamlit==1.52.2
+pytest==9.0.2
