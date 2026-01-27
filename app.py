@@ -119,20 +119,31 @@ with col_controls:
             help=f"Value predicted by the BGEM model."
         )
 
+    zone_descriptions = {
+        "A": "has no effect on clinical action",
+        "B": "has little or no effect on clinical outcome",
+        "C": "is likely to affect clinical outcome",
+        "D": "has significant medical risk",
+        "E": "has dangerous consequences"
+    }
+
     zone = classify_parkes_zone(ref_val, pred_val, diabetes_type.lower(), unit)
+    description = zone_descriptions.get(zone, "Unknown Zone")
     st.markdown("---")
     st.markdown(f"### Clinical Risk Zone: **{zone}**")
 
     if zone in ["A", "B"]:
         result_message = (
-            f"Zone {zone} results are acceptable under ISO 15197:2013, "
-            "which mandates 99% of readings fall within Zones A and B. \n\n"
+            f"Zone {zone} results {description}."
+            " This result is acceptable under ISO 15197:2013," 
+            " which mandates 99% of readings fall within Zones A and B."
         )
         st.success(result_message)
     else:
         risk_message = (
-            f"Zone {zone} is outside the acceptable range. "
-            "ISO 15197:2013 requires 99% of readings to be in Zones A and B for patient safety. \n\n"
+            f"Zone {zone} results {description}."
+            " This result is outside the acceptable range."
+            " ISO 15197:2013 requires 99% of readings to be in Zones A and B for patient safety."
         )
         st.error(risk_message)
 
