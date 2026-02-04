@@ -11,7 +11,8 @@ def local_css(file_name):
 st.set_page_config(
     page_title="Actxa Parkes Error Grid Validation Tool",
     page_icon="assets/Actxa-Logo1C-2307.png",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="collapsed"
 )
 
 local_css("assets/style.css")
